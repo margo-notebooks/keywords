@@ -7,7 +7,7 @@ statement type: directive
 purpse: ignore a cell in non-notebook contexts
 author: Jake Kara <jake@jakekara.com>
 status: Accepted
-Created: March 1, 2021
+created: March 1, 2021
 ```
 
 ## Abstract
@@ -36,3 +36,4 @@ cells marked with the `ignore-cell` directive.
 
 print("The contents of this cell will be skipped during import")
 ```
+s
