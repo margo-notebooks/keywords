@@ -8,9 +8,7 @@ Notes that a cell should be excluded from the notebook when the notebook is bein
 
 ### kwp-2: `submodule`
 
-Notes that a cell should be included in a virtual submodule with the notebook is being imported as a module.  
-
-[Read the full proposal](proposals/kwp-2.md).
+Notes that a cell should be included in a virtual submodule with the notebook is being imported as a module. [Read the full proposal](proposals/kwp-2.md).
 
 ### kwp-3: `requirements.txt`
 
@@ -18,7 +16,7 @@ Lists the Notebook's dependencies in the same format as a Python [requirements.t
 
 ### kwp-4: `interface.inputs`
 
-Lists local files that are required prior to executing a notebook as a standalone script. 
+Lists local files that are required prior to executing a notebook as a standalone script.  
 
 ### kwp-5: `interface.outputs`
 
