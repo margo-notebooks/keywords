@@ -1,6 +1,7 @@
+# KWP 2: `submodule`
 
 ```yaml:meta
-KWP: 1
+KWP: 2
 keyword: submodule
 statement type: assignment
 purpose: group cells into virtual submodules
@@ -19,10 +20,10 @@ When importing notebooks as modules, indicate that a cell should be executed ins
 
 ## Usage
 
-```python
+```python:margo
 # :: submodule: "grumpy"
 ```
 
-```python
+```python:margo
 # :: submodule: "nice"
 ```

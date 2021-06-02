@@ -2,30 +2,37 @@
 
 ## Accepted  
 
-### ignore-cell
+### kwp-1: `ignore-cell`
 
-Notes that a cell should be excluded from the notebook when the notebook is being imported as a module. [KWP-1](proposals/kwp-1.md)
+Notes that a cell should be excluded from the notebook when the notebook is being imported as a module. [Read the full proposal](proposals/kwp-1.md).
 
-### submodule
+### kwp-2: `submodule`
 
-Notes that a cell should be included in a virtual submodule with the notebook is being imported as a module. [KWP-2](proposals/kwp-2.md)
+Notes that a cell should be included in a virtual submodule with the notebook is being imported as a module.  
 
-### requirements.txt
+[Read the full proposal](proposals/kwp-2.md).
 
-Lists the Notebook's dependencies in the same format as a Python ]][requirements.txt](https://pip.pypa.io/en/stable/reference/pip_install/#requirements-file-format). [KWP-3](proposals/kwp-3.md)
+### kwp-3: `requirements.txt`
 
-### interface.inputs
+Lists the Notebook's dependencies in the same format as a Python [requirements.txt](https://pip.pypa.io/en/stable/reference/pip_install/#requirements-file-format) file. [Read the full proposal](proposals/kwp-3.md).
 
-Lists local files that are required prior to executing a notebook as a standalone script. [KWP-4](proposals/kwp-4.md)  
+### kwp-4: `interface.inputs`
 
-### interface.outputs
+Lists local files that are required prior to executing a notebook as a standalone script. 
 
-Lists local files that are created by executing a notebook as a standalone script. [KWP-5](proposals/kwp-5.md)
+### kwp-5: `interface.outputs`
 
-### cell-id
+Lists local files that are created by executing a notebook as a standalone script.  
 
-Notes a unique identifier for a cell. [KWP-6](proposals/kwp-6.md)  
+### kwp-6: `cell-id`
 
-### rel.[relationship]
+Notes a unique identifier for a cell.  
 
-Notes a relationship from the current cell to the specified target cell. [KWP-7](proposals/kwp-7.md)
+### kwp-7: `rel.[relationship]`
+
+Notes a relationship from the current cell to the specified target cell.
+
+### kwp-8: `stop-module` and `start-module`
+
+Notes the current cell and all subsequent cells should be excluded (in the case
+of `stop-module`) or included (`start-module`) when the notebook is being imported as a cell. [Read the full proposal](proposals/kwp-8.md).  

@@ -1,4 +1,4 @@
-# KWP 1: ignore-cell
+# KWP 1: `ignore-cell`
 
 ```yaml:meta
 KWP: 1
